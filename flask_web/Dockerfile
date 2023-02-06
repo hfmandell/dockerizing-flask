@@ -20,5 +20,3 @@ EXPOSE 1234
 ENTRYPOINT [ "python3" ]
 
 CMD [ "app.py" ]
-
-# CMD ["python3", "-m" , "flask", "run", "--port 1234"]
