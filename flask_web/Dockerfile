@@ -15,8 +15,6 @@ RUN pip3 install --upgrade setuptools && \
 
 COPY . /app
 
-EXPOSE 1234
-
 ENTRYPOINT [ "python3" ]
 
 CMD [ "app.py" ]
